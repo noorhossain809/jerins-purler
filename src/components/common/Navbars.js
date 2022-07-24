@@ -10,7 +10,7 @@ import { Link } from 'react-router-dom'
 
 const Navbars = () => {
     return (
-        <Disclosure as="nav" className='bg-red-50'>
+        <Disclosure as="nav" className='bg-red-50 py-2'>
             {({ open }) => (
                 <>
                     <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -51,8 +51,8 @@ const Navbars = () => {
                                         <div className="flex space-x-4 mt-5">
                                             <Link to="/home">
                                                 <a
-                                                    className="text-gray-900 hover:text-gray-700
-                                                    px-3 py-4 text-base tracking-wide font-medium"
+                                                    className="text-gray-900 font-[Poppins] hover:text-gray-700
+                                                    px-3 py-3 text-base tracking-wide font-semibold hover:bg-gray-300 rounded-md"
                                                 >
                                                     Home
                                                 </a>
@@ -60,7 +60,7 @@ const Navbars = () => {
                                             <Link to="/home">
                                                 <a
                                                     className="text-gray-900 hover:text-gray-700
-                                                    px-3 py-4 text-base tracking-wide font-medium "
+                                                    px-3 py-3 text-base tracking-wide font-[Poppins] font-semibold hover:bg-gray-300 rounded-md "
                                                 >
                                                     Our Portfolio
                                                 </a>
@@ -68,7 +68,7 @@ const Navbars = () => {
                                             <Link to="/home">
                                                 <a
                                                     className="text-gray-900 hover:text-gray-700
-                                                    px-3 py-4 text-base font-medium tracking-wide "
+                                                    px-3 py-3 text-base font-[Poppins] font-semibold tracking-wide hover:bg-gray-300 rounded-md "
                                                 >
                                                     Our Team
                                                 </a>
@@ -76,15 +76,15 @@ const Navbars = () => {
                                             <Link to="/home">
                                                 <a
                                                     className="text-gray-900 hover:text-gray-700
-                                                    px-3 py-4 text-base font-medium tracking-wide"
+                                                    px-3 py-3 text-base font-[Poppins] font-semibold tracking-wide hover:bg-gray-300 rounded-md "
                                                 >
                                                     Contact Us
                                                 </a>
                                             </Link>
                                             <Link to="/home">
                                                 <a
-                                                    className="bg-pink-500 text-white
-                                                    px-10 py-2 rounded-md tracking-wide text-base font-normal"
+                                                    className="bg-[#F63E7B] text-white
+                                                    px-10 py-3 rounded-md tracking-wide text-base font-normal"
                                                 >
                                                     Login
                                                 </a>
