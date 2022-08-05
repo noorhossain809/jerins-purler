@@ -8,7 +8,7 @@ const Services = () => {
         <div className="container mx-auto mt-10 my-5">
             <h1 style={{fontFamily: 'Poppins'}} className="md:text-3xl sm:text-xl text-center font-extrabold tracking-wide">Our Awesome <span className='text-[#F63E7B]'>Services</span></h1>
             <div className='grid md:grid-cols-3 gap-8 py-6 justify-items-center mt-10 px-10'>
-                <div className="hover:shadow-2xl space-y-1 p-12 rounded-lg">
+                <div className="hover:shadow-2xl transition duration-700 ease-in-out space-y-1 p-12 rounded-lg">
                     <div className="flex justify-center">
                         <img className="w-16 h-18" src={icon1} alt="" />
                     </div>
@@ -16,7 +16,7 @@ const Services = () => {
                     <h5 className='text-base font-medium font-[Poppins] text-center tracking-normal text-[#F63E7B]'>$199</h5>
                     <p className="text-center font-[Poppins] text-sm font-light text-gray-400 tracking-wide">We craft stunning and amazing <br /> web UI, using a well drafted UX <br /> to fit your product.</p>
                 </div>
-                <div className="hover:shadow-2xl space-y-1 p-12 rounded-lg">
+                <div className="hover:shadow-2xl transition duration-700 ease-in-out space-y-1 p-12 rounded-lg">
                     <div className="flex justify-center">
                         <img className="w-16 h-18" src={icon2} alt="" />
                     </div>
@@ -24,7 +24,7 @@ const Services = () => {
                     <h5 className='text-base font-medium font-[Poppins] text-center tracking-normal text-[#F63E7B]'>$99</h5>
                     <p className="text-center font-['Poppins'] text-sm font-light text-gray-400 tracking-wide">Amazing flyers, social media <br /> posts and brand representations<br /> that would make your brand <br /> stand out.</p>
                 </div>
-                <div className="hover:shadow-2xl shadow-rounded-lg space-y-1 p-12 rounded-lg">
+                <div className="hover:shadow-2xl transition duration-700 ease-in-out  space-y-1 p-12 rounded-lg">
                     <div className="flex justify-center">
                         <img className="w-16 h-18" src={icon3} alt="" />
                     </div>
